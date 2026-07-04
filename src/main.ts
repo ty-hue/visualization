@@ -1,5 +1,9 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from "vue";
+import "@/assets/css/main.css";
+import router from "./router";
+import pinia from "./store";
+import DataV from "./global/dataV";
 
-createApp(App).mount('#app')
+import App from "./App.vue";
+
+createApp(App).use(router).use(pinia).use(DataV).mount("#app");
