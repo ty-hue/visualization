@@ -28,7 +28,7 @@ const props = withDefaults(
   }>(),
   {
     width: "100%",
-    height: "400px",
+    height: "100%",
   },
 );
 
