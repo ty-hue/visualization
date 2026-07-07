@@ -11,6 +11,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    BaseChart: typeof import('./src/components/BaseChart/index.vue')['default']
+    BaseDataV: typeof import('./src/components/BaseDataV/index.vue')['default']
+    BaseMapChart: typeof import('./src/components/BaseMapChart/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

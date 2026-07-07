@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* 大屏蓝色宇宙深空背景 */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../img/bg.png") no-repeat center center / cover fixed;
+}
